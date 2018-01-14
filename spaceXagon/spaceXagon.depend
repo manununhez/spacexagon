@@ -1,0 +1,76 @@
+# depslib dependency file v1.0
+1515928500 source:d:\spacexagon\spacexagon\source\load_3ds.cpp
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<io.h>
+	"../header/object.h"
+	"../header/load_3ds.h"
+
+1390622548 d:\spacexagon\spacexagon\header\object.h
+	"mat_vect.h"
+	"mat_matr.h"
+
+1390622548 d:\spacexagon\spacexagon\header\mat_vect.h
+
+1280766604 d:\spacexagon\spacexagon\header\mat_matr.h
+
+1280766604 d:\spacexagon\spacexagon\header\load_3ds.h
+	"object.h"
+
+1515928568 source:d:\spacexagon\spacexagon\source\load_bmp.cpp
+	<stdio.h>
+	<windows.h>
+	<GL/glut.h>
+	"../header/load_bmp.h"
+
+1280766604 d:\spacexagon\spacexagon\header\load_bmp.h
+
+1515933601 source:d:\spacexagon\spacexagon\source\main.cpp
+	"../header/main.h"
+
+1515930666 d:\spacexagon\spacexagon\header\main.h
+	<windows.h>
+	"../include/wincompat.h"
+	<GL/glut.h>
+	"../include/fmod.h"
+	"../include/fmod_errors.h"
+	"../header/load_bmp.h"
+	"../header/load_3ds.h"
+	"../header/object.h"
+	<time.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<stdio.h>
+	<iostream>
+
+1073313098 d:\spacexagon\spacexagon\include\wincompat.h
+	<sys/time.h>
+	<sys/types.h>
+	<unistd.h>
+	<termios.h>
+	<stdio.h>
+	<stdlib.h>
+
+1073313098 d:\spacexagon\spacexagon\include\fmod.h
+
+1073313098 d:\spacexagon\spacexagon\include\fmod_errors.h
+
+1515928524 source:d:\spacexagon\spacexagon\source\mat_matr.cpp
+	<math.h>
+	"../header/mat_matr.h"
+
+1515928536 source:d:\spacexagon\spacexagon\source\mat_vect.cpp
+	<math.h>
+	"../header/mat_vect.h"
+
+1515928557 source:d:\spacexagon\spacexagon\source\object.cpp
+	<math.h>
+	"../header/load_3ds.h"
+	"../header/load_bmp.h"
+	"../header/object.h"
+	<stdio.h>
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="spaceXagon" />
+		<Option execution_dir="../TP" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TP" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../TP" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="lib/fmod.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TP" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../TP" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="lib/fmod.lib" />
+					<Add library="../../../../../Program Files (x86)/CodeBlocks/MinGW/lib/glut32.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/MinGW/GLUT/include" />
+			<Add directory="C:/Users/Manuel/Desktop/INFO3/22enero/TP/" />
+		</Compiler>
+		<Linker>
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/MinGW/GLUT/lib" />
+		</Linker>
+		<Unit filename="header/load_3ds.h" />
+		<Unit filename="header/load_bmp.h" />
+		<Unit filename="header/main.h" />
+		<Unit filename="header/mat_matr.h" />
+		<Unit filename="header/mat_vect.h" />
+		<Unit filename="header/object.h" />
+		<Unit filename="lib/fmod.lib" />
+		<Unit filename="source/load_3ds.cpp" />
+		<Unit filename="source/load_bmp.cpp" />
+		<Unit filename="source/main.cpp" />
+		<Unit filename="source/mat_matr.cpp" />
+		<Unit filename="source/mat_vect.cpp" />
+		<Unit filename="source/object.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
